@@ -6,8 +6,14 @@ export default function Footer() {
       <div className="shell footer-inner">
         <div>© {new Date().getFullYear()} Kristian Borisov. София / България.</div>
         <div className="footer-links">
-          <a href="#">Instagram</a>
-          <a href="#">YouTube</a>
+          <a
+            href="https://www.instagram.com/kristian__borisov/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Instagram
+          </a>
+          <Link href="/work">Проекти</Link>
           <Link href="/contact">Контакт</Link>
         </div>
       </div>
